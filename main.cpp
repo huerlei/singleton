@@ -12,9 +12,9 @@ using namespace singleton;
 
 class DemoSingleton : public Singleton<DemoSingleton>
 {
-public:
-  void Show() { cout << "this is demo singleton." << endl; }
-  void Test() { cout << "this is test test demo singleton." << endl; }
+  public:
+    void Show() { cout << "this is demo singleton." << endl; }
+    void Test() { cout << "this is test test demo singleton." << endl; }
 };
 
 void test_singleton()
